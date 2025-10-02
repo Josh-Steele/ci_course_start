@@ -45,4 +45,4 @@ def minimum(*args):
     return the_min
 
 
-assert minumum([5,2]) == 2
+assert minumum(5,2) == 2
