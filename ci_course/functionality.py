@@ -18,7 +18,7 @@ def greet(name=""):
     return f"Hello {name}"
 
 
-assert greet("Josh") = "Hello Josh"
+assert greet("Josh") == "Hello Josh"
 
 def minimum(*args):
     """
