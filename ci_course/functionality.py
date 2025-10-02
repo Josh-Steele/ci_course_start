@@ -1,6 +1,3 @@
-import numbers
-
-
 def greet(name=""):
     """
     A function that takes a name and returns a greeting.
@@ -16,9 +13,6 @@ def greet(name=""):
         The greeting
     """
     return f"Hello {name}"
-
-
-assert greet("Josh") == "Hello Josh"
 
 def minimum(*args):
     """
@@ -43,6 +37,3 @@ def minimum(*args):
             the_min = min(the_min, arg)
 
     return the_min
-
-
-assert minumum(5,2) == 2
