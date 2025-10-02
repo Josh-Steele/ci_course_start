@@ -18,6 +18,8 @@ def greet(name=""):
     return f"Hello {name}"
 
 
+assert greet("Josh") = "Hello Josh"
+
 def minimum(*args):
     """
     A function taking some arguments and returning the minimum number among the arguments.
@@ -41,3 +43,6 @@ def minimum(*args):
             the_min = min(the_min, arg)
 
     return the_min
+
+
+assert minumum([5,2]) == 2
